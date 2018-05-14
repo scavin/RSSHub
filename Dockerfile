@@ -1,4 +1,5 @@
 FROM keymetrics/pm2:8-alpine
+MAINTAINER cdpath
 ENV NODE_ENV production
 WORKDIR /usr/src/app
 COPY ["package.json", "./"]
